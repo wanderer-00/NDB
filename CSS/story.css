@@ -1,0 +1,46 @@
+:root{
+    --icon-hw: 100px;
+}
+
+body{
+    color: #343434;
+    font-family: fantasy;
+    font-size: 16px;
+}
+
+.story{
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.row{
+    display: flex;
+    background-color: #DDD;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.box_icon > div{
+    width: var(--icon-hw);
+    height: var(--icon-hw);
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+a{
+    color: #343434;
+    text-decoration: none;
+}
+.box_note > a{
+    display: block;
+}
+
+.box_note > a.name{
+    margin-top: 4px;
+    font-size: 30px;
+}
+.prise2{
+    opacity: 0.6
+}

@@ -1,0 +1,28 @@
+:root{
+    --hw: 100px;
+}
+
+.venders{
+    width: 100%;
+    background: red;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.element{
+    width: var(--hw);
+    height: var(--hw);
+    padding: 10%;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+.element > div
+{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
