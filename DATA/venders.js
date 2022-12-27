@@ -104,9 +104,4 @@ var venders_data = [
         "logo": "",
         "link": ""
     },
-    {
-        "name": "",
-        "logo": "",
-        "link": ""
-    },
 ]

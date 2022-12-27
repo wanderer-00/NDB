@@ -1,3 +1,8 @@
+:root{
+    --header-hw: 60px;
+    --header-padding: 6px;
+}
+
 *{box-sizing: border-box}
 
 body{
@@ -5,4 +10,39 @@ body{
     padding: 0;
     width: 100%;
     height: 100vh;
+}
+
+
+
+header{
+    width: inherit;
+    height: var(--header-hw);
+    padding: var(--header-padding);
+    background: #DDD;
+}
+
+header > a > .wait {
+    width: calc( var(--header-hw) - var(--header-padding)*2);
+    height: calc( var(--header-hw) - var(--header-padding)*2);
+    background-color: red;
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    background-size: 90%;
+    background-position: center;
+    border-radius: 4px;
+    position: relative;
+}
+
+.number_wait {
+    color: #DDD;
+    font-size: 14px;
+    background-color: rgba(255,0,0,0.7);
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    text-align: center;
+    align-items: center;
 }
