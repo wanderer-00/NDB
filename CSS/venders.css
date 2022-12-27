@@ -4,7 +4,6 @@
 
 .venders{
     width: 100%;
-    background: red;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -14,9 +13,9 @@
     width: var(--hw);
     height: var(--hw);
     padding: 10%;
-    border: 1px solid red;
+    margin: 10px;
     border-radius: 10px;
-    background-color: antiquewhite;
+    background-color: #DDD;
 }
 .element > div
 {
