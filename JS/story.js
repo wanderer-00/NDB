@@ -11,10 +11,12 @@ for (i=0; i<data_story.length; i++){
 };
 
 for (i=0; i<n; i++){
+    var icon = data_story[i].name.toLowerCase().replace(/ /g, '_'); // нижний регистр, замена пробела на нижний прочерк
+    
     cluster_story.innerHTML += `
     <div class="row">
         <div class="box_icon">
-            <div style="background-image: url(IMG/FOTO/${data_story[i].icon})"></div>
+            <div style="background-image: url(IMG/FOTO/${icon}.webp)"></div>
         </div>
 
         <div class="box_note">

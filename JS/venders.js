@@ -10,7 +10,6 @@ for (i=0; i<venders_data.length; i++){
 };
 
 for (b=0; b<n; b++){
-    console.log(venders_data[b].name);
     cluster_venders.innerHTML += `
     <a href="${venders_data[b].link}">
         <div class="element">

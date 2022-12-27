@@ -46,3 +46,12 @@ header > a > .wait {
     text-align: center;
     align-items: center;
 }
+
+.filter{
+    display: flex;
+    width: 100%;
+    background-color: aquamarine;
+}
+.filter_element{
+    display: flex;
+}
