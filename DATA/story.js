@@ -18,6 +18,24 @@ var data_story = [
         "link": "https://www.chieftec.eu/products-detail/109/A-90-SERIES/111/GDP-650C"
     },
     {
+        "name": "F4-3000C15Q-16GRR (EOL)",
+        "price": [3500, 16900],
+        "icon": "F4-3000C15Q-16GRR.webp",
+        "link": "https://www.gskill.com/product/165/172/1535953960/F4-3000C15Q-16GRR-EOL"
+    },
+    {
+        "name": "CUSO",
+        "price": [3200, 0],
+        "icon": "",
+        "link": "https://aliexpress.ru/store/912510572?spm=a2g2w.detail.feedback.3.20375613aba3fg"
+    },
+    {
+        "name": "B450M DS3H (rev. 1.x)",
+        "price": [3800, 0],
+        "icon": "",
+        "link": "https://www.gigabyte.ru/products/page/mb/b450m_ds3hrev_10#kf"
+    },
+    {
         "name": "",
         "price": [0, 0],
         "icon": "",
