@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <style>      
+      .div1{width: 100px; height: 200px; background: black;}
+      .div2{width: 100px; height: 200px; background: gray;}
+    </style>
+    <script>
+        $(document).ready(function() {
+            div1 = $('.div1');
+            div1Color = div1.css('background');
+ 
+            div2 = $('.div2');
+            div2Color = div2.css('background');
+ 
+            div1.hover(function(){
+                div2.css('background', 'lightblue');
+                div1.css('background', div1Color);
+            });
+ 
+            div2.hover(function(){
+                div1.css('background', 'red');
+                div2.css('background', div2Color);
+            });
+        });
+    </script>
+  </head>
+ 
+  <body>
+    <div class="div1 "></div>
+    <div class="div2 "></div>
+  </body>
+</html>

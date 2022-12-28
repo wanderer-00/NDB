@@ -1,4 +1,4 @@
-var data_filter = ["CPU", "GPU", "PSU", "RAM", "HDD", "SSD"];
+var data_filter = ["CPU", "GPU", "PSU", "RAM", "HDD", "SSD", "ALL"];
 
 var filter = document.querySelector(".filter");
 

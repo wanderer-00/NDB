@@ -1,4 +1,4 @@
-var cluster_venders = document.querySelector('.venders');
+var vender_cluster = document.querySelector('.vender_cluster');
 
 var n = 0; // кол-во заполненных ячеек
 
@@ -9,12 +9,26 @@ for (i=0; i<venders_data.length; i++){
     }
 };
 
+// иконочный режим
+//for (b=0; b<n; b++){
+//    vender_cluster.innerHTML += `
+//    <a href="${venders_data[b].link}">
+//        <div class="element">
+//            <div style="background-image: url(IMG/${venders_data[b].logo})"></div>
+//        </div>
+//    </a>
+//    `;
+//}
+
 for (b=0; b<n; b++){
-    cluster_venders.innerHTML += `
+    vender_cluster.innerHTML += `
     <a href="${venders_data[b].link}">
-        <div class="element">
-            <div style="background-image: url(IMG/${venders_data[b].logo})"></div>
-        </div>
+        <div style="
+        padding: 4px 8px;
+        margin: 4px;
+        background-color: #DDD;
+        "
+        >${venders_data[b].name}</div>
     </a>
     `;
 }

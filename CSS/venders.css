@@ -3,6 +3,10 @@
 }
 
 .venders{
+    border: 2px solid red
+}
+
+.vender_cluster{
     width: 100%;
     display: flex;
     justify-content: center;

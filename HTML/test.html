@@ -1,0 +1,78 @@
+        <style>
+            .A{display: flex}
+            .A1:first-child{margin: 0}
+            .A1{
+                display: flex;
+                margin-left: 4px;
+                border: 1px solid red
+            }
+            .A1:hover{
+                background-color: aquamarine
+            }
+            .mno{
+                margin-left: 0;
+            }
+            ul{
+                margin-left: 0; /* Отступ слева в браузере IE и Opera */
+                padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+            }
+            li{list-style-type: none}
+            li:hover{
+                background-color: aquamarine;
+            }
+        </style>
+        <div class="A" id="A">
+            <div class="A1">AMD</div>
+            <div class="A1">Ryzen</div>
+            <div class="A1">5</div>
+            <div class="A1">5</div>
+            <div class="A1 mno">600</div>
+            <div class="A1 mno">X</div>
+        </div>
+        
+        <ul class="list">
+            <li class="B1">производитель</li>
+            <li class="B1">линейка</li>
+            <li class="B1">семейство</li>
+            <li class="B1">поколение</li>
+            <li class="B1">номер</li>
+            <li class="B1">суффикс</li>
+        </ul>
+        <script type="text/javascript">
+            window.addEventListener("load", function(){
+                
+            });
+            
+            
+            // optimization class RED
+            window.addEventListener("load", function(){
+                var list1 = document.querySelector(".list");
+                console.log(list1);
+                
+                document.getElementById("A").addEventListener("mouseover", function(e){
+                    var elem = e.target || e.srcElement, list = elem.parentNode.getElementsByTagName(elem.nodeName);
+                    for(var i = 0, len = list.length; i < len; i++){
+                        if(list[i] == elem){
+                            var li = list1.getElementsByClassName("B1")[i];
+                            li.style.backgroundColor = "#AA0000";
+                            console.log(li);
+                            console.log(elem.nodeName+" № "+i);
+                            return;
+                        }
+                    }
+                });
+                
+                document.getElementById("A").addEventListener("mouseout", function(e){
+                    var elem = e.target || e.srcElement, list = elem.parentNode.getElementsByTagName(elem.nodeName);
+                    for(var i = 0, len = list.length; i < len; i++){
+                        if(list[i] == elem){
+                            var li = list1.getElementsByClassName("B1")[i];
+                            li.style.backgroundColor = "";
+                            console.log(li);
+                            console.log(elem.nodeName+" № "+i);
+                            return;
+                        }
+                    }
+                });
+            });
+        </script>
