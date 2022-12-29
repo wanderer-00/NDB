@@ -1,6 +1,8 @@
 :root{
     --header-hw: 60px;
     --header-padding: 6px;
+    
+    --header-height: 120px;
 }
 
 *{box-sizing: border-box}
@@ -10,6 +12,9 @@ body{
     padding: 0;
     width: 100%;
     height: 100vh;
+    background-image: url(../IMG/1.jpg);
+    background-position: 0 -210px;
+    opacity: 80%
 }
 
 
@@ -54,4 +59,9 @@ header > a > .wait {
 }
 .filter_element{
     display: flex;
+}
+
+@media (orientation: portrait){
+    header{height: var(--header-height)}
+/*    h1{font-size: 10px}*/
 }
