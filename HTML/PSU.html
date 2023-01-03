@@ -34,10 +34,80 @@
         
         <h2>Формфактор</h2>
         <div class="cluster">
-            <div>ATX </div>
-            <div>TFX</div>
-            <div>SFX</div>
+            <div>ATX [150×86×140мм] - они бывают двух видов: закрытые (80 мм) и открытые (120 мм) с вентилятором</div>
+            <div>SFX [125×51,5×100мм] – небольшие БП с короткими проводами, а их параметры составляет . Этот вариант подойдет для небольших мультимедийных компьютеров либо серверов.</div>
+            <div>TFX [85×65×175мм] – размер для корпусов, которые имеют нестандартные габариты либо низкие по высоте. У них также короткие провода. Если представить визуально, SFX имеют более квадратную форму, а у TFX она более вытянутая.</div>
         </div>
+        
+        <style>
+            .square{
+                width: 10px;
+                height: 10px;
+            }
+        </style>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+            
+            <rect class="pl"
+                  width="100"
+                  height="20"
+                  fill="gray"/>
+<!--
+            <rect class="square" x="0" y="0" fill="red"/>
+            <rect class="square" x="10" y="0" fill="green"/>
+            <rect class="square" x="20" y="0" fill="blue"/>
+-->
+            
+            <script>
+                var data = [
+                    {
+                        "volt":3.3,
+                        "form":"rect"
+                    },
+                    {
+                        "volt":3.3,
+                        "form":"rect"
+                    },
+                    {
+                        "volt":0,
+                        "form":"rect"
+                    },
+                    {
+                        "volt":5,
+                        "form":"rect"
+                    },
+                    {
+                        "volt":0,
+                        "form":"rect"
+                    },
+                    {
+                        "volt":5,
+                        "form":"rect"
+                    },
+                    {
+                        "volt":0,
+                        "form":"rect"
+                    },
+                    {
+                        "volt":3.3,
+                        "form":"rect"
+                    },
+                    {
+                        "volt":3.3,
+                        "form":"rect"
+                    },
+                    {
+                        "volt":3.3,
+                        "form":"rect"
+                    }
+                ];
+                
+                var pl = document.getElementsByClassName("pl")[0];
+                for(i=0;i<10;i++){
+                    pl.innerHTML += `<rect class="square" x="10" y="0" fill="red"/>`;
+                }
+            </script>
+        </svg>
         
     </body>
 </html>
