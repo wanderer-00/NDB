@@ -73,7 +73,7 @@ var data_story = [
     },
     {
         "name": "Ryzen 3 1200",
-        "type": "",
+        "type": "CPU",
         "time": "27-12-22",
         "price": [2000, 3600],
         "icon": "ryzen_3_1200.svg",
