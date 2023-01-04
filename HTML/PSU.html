@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    
+    <style>
+        body{font-family: sans-serif}
+        object img{height: 130px}
+    </style>
+    
+    <body>
+        <h1>Блок питания</h1>
+        
+        <h2>Стандарт энергоэффективности</h2>
+        <div class="cluster">
+            <object type="image/svg+xml" data="../SVG/80_plus_white.svg.svg"><img src="../SVG/80_plus_white.svg"></object>
+            <object type="image/svg+xml" data="../SVG/80_plus_white.svg.svg"><img src="../SVG/80_plus_bronze.svg"></object>
+            <object type="image/svg+xml" data="../SVG/80_plus_white.svg.svg"><img src="../SVG/80_plus_silver.svg"></object>
+            <object type="image/svg+xml" data="../SVG/80_plus_white.svg.svg"><img src="../SVG/80_plus_gold.svg"></object>
+            <object type="image/svg+xml" data="../SVG/80_plus_white.svg.svg"><img src="../SVG/80_plus_platinum.svg"></object>
+            <object type="image/svg+xml" data="../SVG/80_plus_white.svg.svg"><img src="../SVG/80_plus_titanium.svg"></object>
+        </div>
+        
+        <h2>Питание</h2>
+        <div class="cluster">
+            <div>процессор</div>
+            <div>видеокарта</div>
+            <div>материнская плата</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        
+        <h2>Формфактор</h2>
+        <div class="cluster">
+            <div>ATX [150×86×140мм] - они бывают двух видов: закрытые (80 мм) и открытые (120 мм) с вентилятором</div>
+            <div>SFX [125×51,5×100мм] – небольшие БП с короткими проводами, а их параметры составляет . Этот вариант подойдет для небольших мультимедийных компьютеров либо серверов.</div>
+            <div>TFX [85×65×175мм] – размер для корпусов, которые имеют нестандартные габариты либо низкие по высоте. У них также короткие провода. Если представить визуально, SFX имеют более квадратную форму, а у TFX она более вытянутая.</div>
+        </div>
+        
+        <style>
+            .square{
+                width: 9px;
+                height: 9px;
+            }
+        </style>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101 21" class="pl">
+            
+            <rect width="101"
+                  height="21"
+                  fill="gray"/>
+            <rect class="square" x="1"  y="1"  fill="orange"/>
+            <rect class="square" x="11" y="1"  fill="blue"/>
+            <rect class="square" x="21" y="1"  fill="black"/>
+            <rect class="square" x="31" y="1"  fill="green"/>
+            <rect class="square" x="41" y="1"  fill="black"/>
+            <rect class="square" x="51" y="1"  fill="black"/>
+            <rect class="square" x="61" y="1"  fill="black"/>
+            <rect class="square" x="71" y="1"  fill="white"/>
+            <rect class="square" x="81" y="1"  fill="red"/>
+            <rect class="square" x="91" y="1"  fill="red"/>
+            <rect class="square" x="1"  y="11" fill="orange"/>
+            <rect class="square" x="11" y="11" fill="orange"/>
+            <rect class="square" x="21" y="11" fill="black"/>
+            <rect class="square" x="31" y="11" fill="red"/>
+            <rect class="square" x="41" y="11" fill="black"/>
+            <rect class="square" x="51" y="11" fill="red"/>
+            <rect class="square" x="61" y="11" fill="black"/>
+            <rect class="square" x="71" y="11" fill="darkgray"/>
+            <rect class="square" x="81" y="11" fill="purple"/>
+            <rect class="square" x="91" y="11" fill="yellow"/>
+            
+<!--
+            <script>
+                var data = [
+                    {
+                        "volt":3.3,
+                        "form":"rect"
+                    },
+                    {
+                        "volt":3.3,
+                        "form":"rect"
+                    },
+                    {
+                        "volt":0,
+                        "form":"rect"
+                    },
+                    {
+                        "volt":5,
+                        "form":"rect"
+                    },
+                    {
+                        "volt":0,
+                        "form":"rect"
+                    },
+                    {
+                        "volt":5,
+                        "form":"rect"
+                    },
+                    {
+                        "volt":0,
+                        "form":"rect"
+                    },
+                    {
+                        "volt":3.3,
+                        "form":"rect"
+                    },
+                    {
+                        "volt":3.3,
+                        "form":"rect"
+                    },
+                    {
+                        "volt":3.3,
+                        "form":"rect"
+                    },
+                    {
+                        "volt":3.3,
+                        "form":"rect"
+                    },
+                    {
+                        "volt":3.3,
+                        "form":"rect"
+                    },
+                    {
+                        "volt":3.3,
+                        "form":"rect"
+                    },
+                    {
+                        "volt":3.3,
+                        "form":"rect"
+                    },
+                ];
+                
+                var display = {
+                    "size_pin": "8",
+                };
+                
+                var pl = document.getElementsByClassName("pl")[0];
+                for(i=0;i<10;i++){
+                    var newElement = document.createElementNS("http://www.w3.org/2000/svg", 'rect');
+                    newElement.setAttribute("class", "square");
+                    newElement.setAttribute("x", i*10+((10-display.size_pin)/2));
+                    
+                    if ( i < 11) {newElement.setAttribute("y", (10-display.size_pin)/2)}
+                    else {newElement.setAttribute("y", (10-display.size_pin)/2)+10};
+                    
+                    newElement.setAttribute("y", (10-display.size_pin)/2);
+                    newElement.setAttribute("width", display.size_pin);
+                    newElement.setAttribute("height", display.size_pin);
+                    
+                    if ( data[i].volt == 5 ){newElement.setAttribute("fill", "red")}
+                    else if ( data[i].volt == 3.3 ){newElement.setAttribute("fill", "yellow")}
+                    else if ( data[i].volt == 0 ){newElement.setAttribute("fill", "black")};
+                    
+                    pl.appendChild(newElement);
+                }
+                
+      
+            </script>
+-->
+        </svg>
+        
+    </body>
+</html>

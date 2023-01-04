@@ -4,7 +4,7 @@ var data_story = [
         "type": "CPU",
         "time": "",
         "price": [2400, 3600],
-        "icon": "ryzen_3_1200.jpg",
+        "icon": "",
         "link": "https://www.amd.com/en/products/cpu/amd-ryzen-3-1200"
     },
     {
@@ -12,7 +12,7 @@ var data_story = [
         "type": "CPU",
         "time": "",
         "price": [2300, 3600],
-        "icon": "ryzen_3_1200.jpg",
+        "icon": "",
         "link": "https://www.amd.com/en/products/cpu/amd-ryzen-3-1200"
     },
     {
@@ -76,16 +76,40 @@ var data_story = [
         "type": "",
         "time": "27-12-22",
         "price": [2000, 3600],
-        "icon": "",
+        "icon": "ryzen_3_1200.svg",
         "link": ""
     },
     {
-        "name": "",
-        "type": "",
-        "time": "",
-        "price": [0, 0],
-        "icon": "",
-        "link": ""
+        "name": "Jonsbo 140mm 3pin (29шт)",
+        "type": "FAN",
+        "time": "02-01-23",
+        "price": [150, 250],
+        "icon": "jonsbo_140mm.webp",
+        "link": "https://www.jonsbo.com/en/"
+    },
+    {
+        "name": "Jonsbo 120mm 14sm 3pin (27шт)",
+        "type": "FAN",
+        "time": "02-01-23",
+        "price": [150, 250],
+        "icon": "jonsbo_140mm.webp",
+        "link": "https://www.jonsbo.com/en/"
+    },
+    {
+        "name": "Jonsbo 120mm 34sm 3pin (21шт)",
+        "type": "FAN",
+        "time": "02-01-23",
+        "price": [150, 250],
+        "icon": "jonsbo_140mm.webp",
+        "link": "https://www.jonsbo.com/en/"
+    },
+    {
+        "name": "Jonsbo 120mm 34sm 3pin+Molex (20шт)",
+        "type": "FAN",
+        "time": "02-01-23",
+        "price": [150, 250],
+        "icon": "jonsbo_140mm.webp",
+        "link": "https://www.jonsbo.com/en/"
     },
     {
         "name": "",
