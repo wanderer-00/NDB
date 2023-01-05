@@ -22,14 +22,14 @@ var icon = data_story[i].name.toLowerCase().replace(/ /g, '_') + ".webp"; // н�
     icon = "";
     
     cluster_story.innerHTML += `
-    <div class="row">
+    <div class="row" data-f="${data_story[i].type}">
         <div class="box_icon">
             <div style="background-image: url(IMG/FOTO/${icon})"></div>
         </div>
 
         <div class="box_note">
             <a class="name" href="#">${data_story[i].name}</a>
-            <a class="manufacturer" href="${data_story[i].link}">производитель</a>
+            <a class="manufacturer" href="${data_story[i].link}">${data_story[i].vend}</a>
             <div class="prise1">${data_story[i].price[0]}</div>
             <div class="prise2"><s>${data_story[i].price[1]}</s></div>
         </div>
