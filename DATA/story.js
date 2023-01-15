@@ -135,22 +135,22 @@ var data_story = [
         "link": "https://toshiba.semicon-storage.com/eu/storage/product/internal-specialty/pc/articles/mq01abd-series.html"
     },
     {
-        "name": "",
-        "type": "",
-        "time": "",
-        "price": [0, 0],
+        "name": "System Power 9 500W",
+        "type": "PSU",
+        "time": "12-01-23",
+        "price": [2500, 3999],
         "icon": "",
-        "vend": "",
-        "link": ""
+        "vend": "be quiet!",
+        "link": "https://www.bequiet.com/ru/powersupply/1280"
     },
     {
-        "name": "",
-        "type": "",
-        "time": "",
-        "price": [0, 0],
+        "name": "Cylon Mini Tempered Glass",
+        "type": "CC",
+        "time": "14-01-23",
+        "price": [2500, 0],
         "icon": "",
-        "vend": "",
-        "link": ""
+        "vend": "AeroCool",
+        "link": "https://aerocool.io/ru/product/cylon-mini-tempered-glass/"
     },
     {
         "name": "",
