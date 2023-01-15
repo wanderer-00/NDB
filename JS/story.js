@@ -14,12 +14,10 @@ for (i=0; i<n; i++){
     
 var icon = data_story[i].name.toLowerCase().replace(/ /g, '_') + ".webp"; // нижний регистр, замена пробела на нижний прочерк
     
-    if (data_story[i].name == "Ryzen 3 1200"){
+    if (data_story[i].type == "CPU"){
         icon = "ryzen_3_1200.svg"
     }
     
-    
-    icon = "";
     
     cluster_story.innerHTML += `
     <div class="row" data-f="${data_story[i].type}">

@@ -18,12 +18,13 @@ var filter = document.querySelector(".filter");
 
 for (i=0; i<data_filter.length; i++){
     
-    filter.innerHTML += `<div class="filter_element"><input type="checkbox" data-f="${data_filter[i]}"><div>${data_filter[i]}</div></div>`
+//    filter.innerHTML += `<div class="filter_element"><input type="checkbox" data-f="${data_filter[i]}"><div>${data_filter[i]}</div></div>`
+    filter.innerHTML += `<button data-f="${data_filter[i]}">${data_filter[i]}</button>`
 }
 
 // отслеживание click по фильтру контента
 filter.addEventListener("click", event => {
-    if (event.target.tagName !== "INPUT") return false;
+    if (event.target.tagName !== "BUTTON") return false;
     
     var filterType = event.target.dataset["f"];
     
