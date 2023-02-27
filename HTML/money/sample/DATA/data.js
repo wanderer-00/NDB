@@ -1,0 +1,123 @@
+var DATA = [
+    {
+        "HEAD": "Статус",
+        "CLUSTER":[
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+        ]
+    },
+
+    {
+        "HEAD": "Дата",
+        "CLUSTER":[
+            2400,
+            2300,
+            2500,
+            3500,
+            3200,
+            3800,
+            4400,
+            5000,
+            5000,
+            2000,
+            150*29,
+            150*27,
+            150*21,
+            150*20,
+            450,
+            2500,
+            2500,
+            1500,
+        ]
+    },
+
+    {
+        "HEAD": "Дата",
+        "CLUSTER":[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            271222,
+            271222,
+            271222,
+            20122,
+            20122,
+            20122,
+            20122,
+            40123,
+            120123,
+            140123,
+            270223,
+        ]
+    },
+
+    {
+        "HEAD": "Товар",
+        "CLUSTER":[
+            "Ryzen 3 1200",
+            "Ryzen 3 1200",
+            "GDP-650C A-90-SERIES",
+            "F4-3000C15Q-16GRR (EOL)",
+            "CUSO",
+            "B450M DS3H (rev. 1.x)",
+            "PRIME B450M-K II",
+            "RX 580",
+            "RX 580",
+            "Ryzen 3 1200",
+            "Jonsbo 140mm 3pin (29шт)",
+            "Jonsbo 120mm 14sm 3pin (27шт)",
+            "Jonsbo 120mm 34sm 3pin (21шт)",
+            "Jonsbo 120mm 34sm 3pin+Molex (20шт)",
+            "MQ01ABD100",
+            "System Power 9 500W",
+            "Cylon Mini Tempered Glass",
+            "Jonsbo 120mm 14sm 3pin (5шт)",
+        ]
+    },
+
+    {
+        "HEAD": "Комментарий",
+        "CLUSTER":[
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+        ]
+    },
+
+
+]

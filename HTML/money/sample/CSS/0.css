@@ -1,0 +1,93 @@
+:root{
+    --HEAD: #18181A;
+    --DARK: #232327;
+    --LITE: #2E2E32;
+    --BORDER: #3C3C3E;
+
+    --TEXT: #88888A;
+    --URL: #45A1FF;
+    
+    --TRUE: #86DE74;
+    --FALSE: #FF3B6B;
+    --NOWORK: #6A6A6C;
+}
+
+/* TRUE | FALSE */
+div.TRUE, div.FALSE {
+    color: var(--DARK);
+    font-size: 10px;
+    padding: 0px 3px;
+    border-radius: 3px;
+    display: inline-block;
+} /* TRUE */
+div.TRUE{
+    background-color: var(--TRUE);
+} /* FALSE */
+div.FALSE{
+    background-color: var(--FALSE);
+}
+
+
+
+
+
+body{
+    color: var(--TEXT);
+    font-family: monospace;
+    font-size: 12px;
+    background-color: cyan;
+    box-sizing: border-box;
+}
+
+div.WINDOW{
+    display: inline-block;
+    vertical-align: top;
+    
+    border: 1px solid var(--BORDER);
+/*    background-color: var(--BG);*/
+}
+
+div.HEAD, div.NAME, div.BOX{
+    padding: 6px 8px;
+}
+
+div.HEAD{
+    background-color: var(--HEAD);
+    border-bottom: 1px solid var(--BORDER);
+}
+div.AREA{
+    display: flex;
+    background-color: var(--LITE);
+}
+
+
+/* COLUMN */
+div.COLUMN{
+    border-right: 1px solid var(--BORDER);
+    border-top: 1px solid var(--BORDER);
+} div.COLUMN:last-child{border-right: none}
+
+
+/* CELL */
+div.BOX:nth-child(2n){
+    background-color: var(--DARK);
+}
+div.COLUMN > div{
+/*    border-bottom: 1px solid var(--BORDER);*/
+} div.COLUMN > div:last-child{
+    border-bottom: none
+}
+
+
+
+/********************ERROR**********************/
+div.ERROR{
+    width: 740px;
+    margin: 40px 0;
+    background-color: #000;
+    border: 1px solid var(--BORDER);
+}
+h1,
+p
+{
+    padding: 0 10px}
