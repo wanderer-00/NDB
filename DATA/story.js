@@ -153,13 +153,13 @@ var data_story = [
         "link": "https://aerocool.io/ru/product/cylon-mini-tempered-glass/"
     },
     {
-        "name": "",
+        "name": "VIPER",
         "type": "",
         "time": "",
         "price": [0, 0],
         "icon": "",
         "vend": "",
-        "link": ""
+        "link": "https://viper.patriotmemory.com/ru/products/viper-4-blackout-ddr4-performance-memory-ram-viper-gaming-by-patriot-memory"
     },
     {
         "name": "",
@@ -167,7 +167,7 @@ var data_story = [
         "time": "",
         "price": [0, 0],
         "icon": "",
-        "vend": "",
+        "vend": "Patriot Memory - Viper Gaming",
         "link": ""
     },
 

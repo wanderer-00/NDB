@@ -80,9 +80,9 @@ var venders_data = [
         "link": "https://www.goodram.com/"
     },
     {
-        "name": "",
-        "logo": "",
-        "link": ""
+        "name": "Patriot Memory",
+        "logo": "patriot_memory.svg",
+        "link": "https://www.patriotmemory.com/"
     },
     {
         "name": "",
