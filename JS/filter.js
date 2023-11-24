@@ -31,17 +31,6 @@ filter.addEventListener("click", event => {
     check(filterType);
 });
 
-// значения фильтра
-//let Array = {
-//    "CPU": false,
-//    "GPU": false,
-//    "PSU": false,
-//    "RAM": false,
-//    "HDD": false,
-//    "SSD": false,
-//    "FAN": false,
-//    "ALL": false
-//};
 
 // логика смены значений фильтра
 function check(arg1){

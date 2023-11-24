@@ -1,22 +1,6 @@
 var data_story = [
-    {
-        "name": "Ryzen 3 1200",
-        "type": "CPU",
-        "time": "",
-        "price": [2400, 3600],
-        "icon": "",
-        "vend": "AMD",
-        "link": "https://www.amd.com/en/products/cpu/amd-ryzen-3-1200"
-    },
-    {
-        "name": "Ryzen 3 1200",
-        "type": "CPU",
-        "time": "",
-        "price": [2300, 3600],
-        "icon": "",
-        "vend": "AMD",
-        "link": "https://www.amd.com/en/products/cpu/amd-ryzen-3-1200"
-    },
+
+
     {
         "name": "GDP-650C A-90-SERIES",
         "type": "PSU",
@@ -80,15 +64,7 @@ var data_story = [
         "vend": "",
         "link": ""
     },
-    {
-        "name": "Ryzen 3 1200",
-        "type": "CPU",
-        "time": "27-12-22",
-        "price": [2000, 3600],
-        "icon": "ryzen_3_1200.svg",
-        "vend": "AMD",
-        "link": "https://www.amd.com/en/products/cpu/amd-ryzen-3-1200"
-    },
+
     {
         "name": "Jonsbo 140mm 3pin (29шт)",
         "type": "FAN",

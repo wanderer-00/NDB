@@ -1,46 +1,29 @@
-:root{
-    --icon-hw: 100px;
+:root {
+    --icon-hw: 100%;
 }
 
-body{
+body {
     color: #343434;
-    font-family: fantasy;
+    font-family: sans-serif;
     font-size: 16px;
 }
 
-.story{
-    margin: 10px 0;
-    display: grid;
-    grid-template-columns: 1fr;
-}
-.row{
+.CLUSTER {
+    margin: 10px auto;
     display: flex;
-    background-color: #DDD;
-    border-radius: 10px;
-    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-
-.box_icon > div{
-    width: var(--icon-hw);
-    height: var(--icon-hw);
-    margin: 10px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
-
-a{
-    color: #343434;
-    text-decoration: none;
-}
-.box_note > a{
+.BOX {
     display: block;
+    width: 30%;
+    padding: 20px;
+    background-color: #DDD;
+    border-radius: 4px;
+    margin: 5px 10px;
 }
 
-.box_note > a.name{
-    margin-top: 4px;
-    font-size: 30px;
-}
-.prise2{
-    opacity: 0.6
+div.NAME {
+    text-align: center;
+    font-size: 20px;
 }
