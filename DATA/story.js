@@ -138,13 +138,22 @@ var data_story = [
         "link": "https://viper.patriotmemory.com/ru/products/viper-4-blackout-ddr4-performance-memory-ram-viper-gaming-by-patriot-memory"
     },
     {
+        "name": "GA-F2A55M-DS2",
+        "type": "MB",
+        "time": "",
+        "price": [0, 0],
+        "icon": "",
+        "vend": "GIGABYTE",
+        "link": "https://www.gigabyte.ru/products/page/mb/ga-f2a55m-ds2rev_10/kf"
+    },
+    {
         "name": "",
         "type": "",
         "time": "",
         "price": [0, 0],
         "icon": "",
-        "vend": "Patriot Memory - Viper Gaming",
+        "vend": "",
         "link": ""
     },
-
+    
 ];
