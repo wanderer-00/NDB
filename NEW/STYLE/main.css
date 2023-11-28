@@ -1,0 +1,76 @@
+:root {
+    --header-padding: 20px;
+}
+
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.WRAPPER {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    position: relative;
+    background-color: #F6F6F6;
+    padding: var(--header-padding);
+}
+
+header .LOGO {
+    font-size: 2em;
+}
+
+header input {
+    position: absolute;
+    right: var(--header-padding);
+    top: var(--header-padding);
+    height: 40px;
+}
+
+main {
+    display: inline-flex;
+    width: 100%;
+    height: 80%;
+/*    background-color: rgba(0, 255, 0, .2);*/
+}
+
+main .FILTER {
+    width: 20%;
+/*    background-color: rgba(255, 0, 0, .2);*/
+}
+
+main .CLUSTER {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+/*    background-color: rgba(0, 0, 255, .2);*/
+}
+
+.BOX {
+    width: 200px;
+    margin: 20px;
+}
+
+
+
+
+@media (orientation: portrait) {
+    .WRAPPER {width: 100%}
+    
+    main .FILTER {width: 0}
+    main .CLUSTER {width: 100%}
+    
+}
