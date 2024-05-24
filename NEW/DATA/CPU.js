@@ -9,11 +9,11 @@ var CPU = [
     },
 
     {
-        "VENDER":"",
-        "LINE":"",
-        "FAMILY":"",
-        "GENERATION":"",
-        "NUMBER":"",
+        "VENDER":"AMD",
+        "LINE":"Ryzen",
+        "FAMILY":"3",
+        "GENERATION":"1",
+        "NUMBER":"200",
         "ABC SUFFIX":""
     },
 

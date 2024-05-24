@@ -1,6 +1,6 @@
 var CLUSTER = document.getElementsByClassName("CLUSTER")[0];
 
-for ( i=0; i<1; i++){
+for ( i=0; i<2; i++){
     CLUSTER.innerHTML += `
         <div class="BOX">
             <svg xmlns="http://www.w3.org/2000/svg"
