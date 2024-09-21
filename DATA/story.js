@@ -175,5 +175,14 @@ var data_items = [
         "vend": "ARDOR",
         "link": "",
         "have": true
-    }
+    },
+    {
+        "name": "Cyclop M100R1",
+        "type": "CAM",
+        "time": "",
+        "icon": ["Cyclop_M100R1.png", 1, 1],
+        "vend": "ZET GAMING",
+        "link": "",
+        "have": true
+    },
 ];
