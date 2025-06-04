@@ -1,0 +1,40 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 20px;
+    grid-gap: 20px;
+
+    & > div {
+        align-content: center;
+        padding: 10px;
+        box-shadow: 0 0 8px 0 #999;
+
+        & > .icon {
+            position: relative;
+            width: 100%;
+            /*                    border: 1px solid lightgray;*/
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+
+            & > .number {
+                position: absolute;
+                right: 0;
+                display: inline;
+                padding: 4px 8px;
+                border-radius: 0 0 0 10px;
+                background-color: #FFF;
+            }
+        }
+    }
+}

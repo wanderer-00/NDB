@@ -149,6 +149,25 @@ var data_items = [
         "have": true
     },
     {
+        "name": "GT 730",
+        "type": "GPU",
+        "time": "",
+        "icon": ["gt_730.webp", 1, 2],
+        "vend": "Asus",
+        "link": "",
+        "have": true
+    },
+    {
+        "name": "GTX 1070 TI",
+        "type": "GPU",
+        "time": "",
+        "icon": ["gtx_1070_ti_msi_duke.jpg", 1, 2],
+        "vend": "MSI",
+        "link": "",
+        "have": true
+    },
+    
+    {
         "name": "Jonsbo 120mm 34sm 3pin+Molex",
         "type": "FAN",
         "time": "02-01-23",
@@ -176,6 +195,7 @@ var data_items = [
         "link": "",
         "have": true
     },
+
     {
         "name": "Cyclop M100R1",
         "type": "CAM",
