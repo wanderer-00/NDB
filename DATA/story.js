@@ -205,4 +205,14 @@ var data_items = [
         "link": "",
         "have": true
     },
+    
+    {
+        "name": "Cyclop M100R1",
+        "type": "RAM",
+        "time": "",
+        "icon": ["hyperx_predator.jpg", 1, 2],
+        "vend": "HyperX",
+        "link": "",
+        "have": true
+    }
 ];
